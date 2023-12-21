@@ -5,6 +5,7 @@ import 'package:revise_flutter/widget/RowColumnImage.dart';
 import 'package:revise_flutter/widget/Slivers_demo.dart';
 import 'package:revise_flutter/widget/gridview_demo.dart';
 import 'package:revise_flutter/widget/myMind.dart';
+import 'package:revise_flutter/widget/visiting_card.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:UIsample()
+      home:CardView()
+      //UIsample()
       //MyOwnDesign()
       //SliversDemo()
       //GridviewDemo()
